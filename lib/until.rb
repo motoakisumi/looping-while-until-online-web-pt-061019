@@ -3,6 +3,7 @@ def using_until
   
   until levitation_force == 10
     puts "Levitation is #{levitation_force}"
+    levitation +=1
   end
     
 end
